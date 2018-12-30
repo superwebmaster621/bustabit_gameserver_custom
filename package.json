@@ -1,0 +1,27 @@
+{
+  "name": "BustaBit",
+  "version": "0.0.1",
+  "engines": {
+    "node": "^4.2.0"
+  },
+  "dependencies": {
+    "CBuffer": "~1.1.1",
+    "async": "~1.5.2",
+    "better-assert": "~1.0.0",
+    "binary-search": "^1.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "libpq": "^1.8.8",
+    "lodash": "^4.0.0",
+    "pg": "~4.4.0",
+    "pg-native": "^1.10.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "socket.io": "~1.4.4",
+    "uuid": "^2.0.1"
+  },
+  "scripts": {
+    "start-dev": "env $(cat .env | xargs) nodemon server.js --use_strict",
+    "start": "node server.js --use_strict"
+  },
+  "devDependencies": {}
+}
