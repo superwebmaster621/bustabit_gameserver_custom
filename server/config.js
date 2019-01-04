@@ -14,5 +14,5 @@ module.exports = {
     //Do not set any of this on production
 
     CRASH_AT: process.env.CRASH_AT, //Force the crash point
-    WALLET_API_DOMAIN: "http://52.91.191.2:3000"
+    WALLET_API_DOMAIN: ""
 };
